@@ -284,7 +284,7 @@ function mouseMove(event)
         var difx = event.clientX - downMouse[event.button][0];
         var dify = event.clientY - downMouse[event.button][1];
         downMouse[event.button] = [event.clientX, event.clientY];
-        console.log(difx, dify);
+        //console.log(difx, dify);
         setRotate(difx, dify); 
 
     }
